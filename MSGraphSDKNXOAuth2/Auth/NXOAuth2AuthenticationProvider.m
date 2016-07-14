@@ -223,7 +223,8 @@ typedef void (^AuthCompletion)(NSError *error);
     // Ideally we should make an async request to MS_AADV2_LOGOUT_URL, but that takes
     //   a fair bit of 
     for(NSHTTPCookie *cookie in [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]) {
-        if([cookie.domain hasSuffix:@"login.microsoftonline.com"] ||
+//        if([cookie.domain hasSuffix:@"login.microsoftonline.com"] ||
+        if([cookie.domain hasSuffix:@"login.windows-ppe.net"] ||
            [cookie.domain hasSuffix:@".live.com"]) {
             [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:cookie];
         }

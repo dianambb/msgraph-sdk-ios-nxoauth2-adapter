@@ -26,8 +26,12 @@ NSString * const MS_AUTH_ERROR_DOMAIN = @"com.microsoft.graphsdk.autherror";
 
 NSString * const MS_API_HEADER_AUTHORIZATION = @"Authorization";
 
-NSString * const MS_AADV2_AUTH_URL = @"https://login.microsoftonline.com/common/oauth2/v2.0/authorize";
-NSString * const MS_AADV2_TOKEN_URL = @"https://login.microsoftonline.com/common/oauth2/v2.0/token";
+//NSString * const MS_AADV2_AUTH_URL = @"https://login.microsoftonline.com/common/oauth2/v2.0/authorize";
+//NSString * const MS_AADV2_TOKEN_URL = @"https://login.microsoftonline.com/common/oauth2/v2.0/token";
+//NSString * const MS_AADV2_REDIRECT_URL = @"urn:ietf:wg:oauth:2.0:oob";
+//NSString * const MS_AADV2_LOGOUT_URL = @"https://login.microsoftonline.com/common/oauth2/v2.0/logout";
+NSString * const MS_AADV2_AUTH_URL = @"https://login.windows-ppe.net/common/oauth2/v2.0/authorize";
+NSString * const MS_AADV2_TOKEN_URL = @"https://login.windows-ppe.net/common/oauth2/v2.0/token";
 NSString * const MS_AADV2_REDIRECT_URL = @"urn:ietf:wg:oauth:2.0:oob";
-NSString * const MS_AADV2_LOGOUT_URL = @"https://login.microsoftonline.com/common/oauth2/v2.0/logout";
+NSString * const MS_AADV2_LOGOUT_URL = @"https://login.windows-ppe.net/common/oauth2/v2.0/logout";
 NSString * const MS_AADV2_TOKEN_TYPE = @"bearer";
